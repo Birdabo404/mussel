@@ -1,2 +1,2 @@
 # mussel
-a shell built in C
+a POSIX shell built in C
