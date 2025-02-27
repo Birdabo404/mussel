@@ -12,7 +12,8 @@ int main(){
   using_history();
   char *input; 
   while ((input = readline ("mussel-0.1$ ")) != NULL){
-    printf("%s: command not found!\n", input); 
+    printf("%s: command not found!\n", input);
+    setbuf(stdout, NULL); 
     add_history(input);
     free(input);
   }
